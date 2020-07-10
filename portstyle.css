@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+}
+nav a{
+		font-size: 260%;
+		text-decoration: none;
+		color: white;
+		margin: 105px;
+}
+a:link{
+	color:white;
+}
+a:hover{
+	color: red;
+	background-color: #f6cd37;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+header img{
+	float: left;
+}
+header{
+	background-color: black;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+  	height: 50px;
+  	
+}
+#home{
+	padding: 150px;
+	padding-left: 60px;
+	font-size: 280%;
+	color: gold;
+	background-color: black;
+}
+#aboutme{
+	color: white;
+	background-color: #f6cd37;
+	/*background-color: #f49de7;
+	background-color: #f49de7;*/
+	overflow: auto;
+	font-size: 180%;
+
+}
+#aboutme h1{
+	text-align: center;
+}
+#aboutme img{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+.par1,.par2,.par3{
+	color: black;
+}
+#snaps h1,#contactme h1,.fan{
+	text-align: center;
+}
+#contactme{
+	font-size: 20px;
+	background-color: #f6cd37;
+	overflow: auto;
+}
+.map{
+	float: left;
+	margin: 0 50px;
+}
+.field{
+	width: 35%;
+	float: left;
+}
+form{
+	padding: 20px;
+}
+label{
+	padding:10px;
+}
+input{
+	margin:5px;
+}
+.submit{
+	margin-left: 210px;
+}
+@media only screen and (max-width: 768px){
+	header{
+		height:40px;
+	}
+	header img{
+		width: 80px;
+		height: 45px;
+	}
+	nav a{
+		font-size: 185%;
+		margin: 1%;
+	}
+	a:hover{
+		color: white;
+		padding: 0 0;
+	}
+	#home{
+		font-size: 170%;
+	}
+	#aboutme img{
+		margin: 0 15%;
+		float: none;
+	}
+	#aboutme{
+		overflow: auto;
+		font-size: 120%;
+	}
+	#snaps img{
+		width: 100%;
+	}
+	.cont{
+		margin: 5% 5%;
+	}
+}
