@@ -1,0 +1,61 @@
+header{
+	background-color: black;
+	height: 3em;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+nav a{
+	color: white;
+	font-size: 150%;
+	margin: 3%; 
+	text-decoration: none;
+	line-height: 45px;
+}
+#home{
+	background-color: black;
+	color: gold;
+	overflow: auto;
+}
+#home h1{
+	margin:20% 0 20% 2%;
+	font-size: 5em;
+}
+#aboutme h1{
+	line-height: 100px;
+	text-align: center;
+}
+#aboutme{
+	background-color: #f6cd37;
+	overflow: auto;
+	font-size: 130%;
+}
+#aboutme img{
+	margin: 0 0 2% 16%;
+}
+#aboutme p{
+	margin: 0 2%;
+}
+#snaps h1{
+	line-height: 100px;
+	color: white;
+	text-align: center;
+}
+#snaps{
+	background-color: grey;
+	overflow: auto;
+}
+.normal{
+	display: none;
+}
+#contactme{
+	overflow: auto;
+	background-color: #f6cd37;
+	text-align: center;
+}
+label{
+	padding: 1%;
+}
+.submit{
+	margin: 0 0 20% 70%;
+}
