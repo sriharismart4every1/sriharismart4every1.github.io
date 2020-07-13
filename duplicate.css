@@ -47,6 +47,9 @@ nav a{
 .normal{
 	display: none;
 }
+contactme h1{
+	line-height:100px;
+}
 #contactme{
 	overflow: auto;
 	background-color: #f6cd37;
