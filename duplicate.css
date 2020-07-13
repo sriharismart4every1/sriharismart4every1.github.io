@@ -7,8 +7,8 @@ header{
 }
 nav a{
 	color: white;
-	font-size: 135%;
-	margin: 2%; 
+	font-size: 100%;
+	margin: 0.5%; 
 	text-decoration: none;
 	line-height: 45px;
 }
@@ -19,7 +19,7 @@ nav a{
 }
 #home h1{
 	margin:20% 0 20% 2%;
-	font-size: 3.5em;
+	font-size: 3em;
 }
 #aboutme h1{
 	line-height: 100px;
@@ -31,7 +31,7 @@ nav a{
 	font-size: 130%;
 }
 #aboutme img{
-	margin: 0 0 2% 16%;
+	margin: 0 0 1% 5%;
 }
 #aboutme p{
 	margin: 0 2%;
