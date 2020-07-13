@@ -1,0 +1,118 @@
+header{
+	background-color: black;
+	height: 3em;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+nav a{
+	color: white;
+	font-size: 100%;
+	margin: 1.5%; 
+	line-height: 45px;
+}
+#home{
+	background-color: black;
+	color: gold;
+	overflow: auto;
+}
+#home h1{
+	margin:60% 0 60% 2%;
+	font-size: 3em;
+}
+#aboutme h1{
+	line-height: 100px;
+	text-align: center;
+}
+#aboutme{
+	background-color: #f6cd37;
+	overflow: auto;
+	font-size: 130%;
+}
+#aboutme img{
+	margin: 0 0 0 6.5%;
+}
+#aboutme p{
+	margin: 0 2%;
+}
+#snaps h1{
+	line-height: 100px;
+	color: white;
+	text-align: center;
+}
+#snaps{
+	background-color: grey;
+	overflow: auto;
+}
+.normal{
+	display: none;
+}
+#contactme{
+	overflow: auto;
+	background-color: #f6cd37;
+	text-align: center;
+}
+#contactme h1{
+	line-height: 100px;
+}
+label{
+	padding: 1%;
+}
+.submit{
+	margin: 0 0 20% 60%;
+}
+.map{
+	frameborder:0;
+}
+@media only screen and (min-width: 768px){
+	#home h1{
+	margin:40% 0 40% 2%;
+	font-size: 5em;
+	}
+	#aboutme img{
+		float: left;
+		margin: 0 2%;
+	}
+	#aboutme{
+		font-size: 140%;
+	}
+	.cont{
+		padding: 3%;
+	}
+}
+@media only screen and (min-width: 1024px){
+	#home h1{
+		margin:20% 0 20% 2%;
+		font-size: 5em;
+	}
+	#aboutme{
+		font-size: 190%;
+		overflow: auto;
+	}
+	.container{
+		display: none;
+	}
+	.normal{
+		display: block;
+		text-align: center;
+	}
+	.normal img{
+		background-color: white;
+		width: 25%;
+		padding: 0 2%;
+		border: 1px solid black;
+		margin-bottom: 1%;
+	}
+	.map{
+		float: left;
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+	.cont{
+		font-size: 130%;
+	}
+	.submit{
+		margin-right: 10%;
+		margin-bottom: 10%;
+	}
+}
